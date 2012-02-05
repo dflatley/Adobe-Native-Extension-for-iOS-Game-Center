@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5503424314DEFF9500C7537D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5503424214DEFF9500C7537D /* UIKit.framework */; };
+		5503424414DF054700C7537D /* BazingaANE-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 55747CF014DDA76D00B1CE7C /* BazingaANE-Prefix.pch */; };
+		55747CED14DDA76D00B1CE7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55747CEC14DDA76D00B1CE7C /* Foundation.framework */; };
+		55747CF314DDA76D00B1CE7C /* BazingaANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 55747CF214DDA76D00B1CE7C /* BazingaANE.m */; };
+		55747CFA14DDA9F300B1CE7C /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55747CF914DDA9F300B1CE7C /* FlashRuntimeExtensions.h */; };
+		55EDDFFF14DE30A5009288C1 /* AppSpecificValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EDDFFC14DE30A5009288C1 /* AppSpecificValues.h */; };
+		55EDE00014DE30A5009288C1 /* GameCenterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EDDFFD14DE30A5009288C1 /* GameCenterManager.h */; };
+		55EDE00114DE30A5009288C1 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EDDFFE14DE30A5009288C1 /* GameCenterManager.m */; };
+		55EDE00514DE3271009288C1 /* MyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EDE00314DE3271009288C1 /* MyDelegate.h */; };
+		55EDE00614DE3271009288C1 /* MyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EDE00414DE3271009288C1 /* MyDelegate.m */; };
+		55EDE00B14DE359E009288C1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EDE00A14DE359E009288C1 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5503424214DEFF9500C7537D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55747CE914DDA76D00B1CE7C /* libBazingaANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBazingaANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55747CEC14DDA76D00B1CE7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55747CF014DDA76D00B1CE7C /* BazingaANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BazingaANE-Prefix.pch"; sourceTree = "<group>"; };
+		55747CF214DDA76D00B1CE7C /* BazingaANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BazingaANE.m; sourceTree = "<group>"; };
+		55747CF914DDA9F300B1CE7C /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		55EDDFFC14DE30A5009288C1 /* AppSpecificValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSpecificValues.h; sourceTree = "<group>"; };
+		55EDDFFD14DE30A5009288C1 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		55EDDFFE14DE30A5009288C1 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		55EDE00314DE3271009288C1 /* MyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDelegate.h; sourceTree = "<group>"; };
+		55EDE00414DE3271009288C1 /* MyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDelegate.m; sourceTree = "<group>"; };
+		55EDE00A14DE359E009288C1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55747CE614DDA76D00B1CE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503424314DEFF9500C7537D /* UIKit.framework in Frameworks */,
+				55EDE00B14DE359E009288C1 /* GameKit.framework in Frameworks */,
+				55747CED14DDA76D00B1CE7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55747CDE14DDA76D00B1CE7C = {
+			isa = PBXGroup;
+			children = (
+				55747CF914DDA9F300B1CE7C /* FlashRuntimeExtensions.h */,
+				55747CEE14DDA76D00B1CE7C /* BazingaANE */,
+				55747CEB14DDA76D00B1CE7C /* Frameworks */,
+				55747CEA14DDA76D00B1CE7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55747CEA14DDA76D00B1CE7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55747CE914DDA76D00B1CE7C /* libBazingaANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55747CEB14DDA76D00B1CE7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5503424214DEFF9500C7537D /* UIKit.framework */,
+				55EDE00A14DE359E009288C1 /* GameKit.framework */,
+				55747CEC14DDA76D00B1CE7C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55747CEE14DDA76D00B1CE7C /* BazingaANE */ = {
+			isa = PBXGroup;
+			children = (
+				55EDDFFC14DE30A5009288C1 /* AppSpecificValues.h */,
+				55EDDFFD14DE30A5009288C1 /* GameCenterManager.h */,
+				55EDDFFE14DE30A5009288C1 /* GameCenterManager.m */,
+				55747CF214DDA76D00B1CE7C /* BazingaANE.m */,
+				55747CEF14DDA76D00B1CE7C /* Supporting Files */,
+				55EDE00314DE3271009288C1 /* MyDelegate.h */,
+				55EDE00414DE3271009288C1 /* MyDelegate.m */,
+			);
+			path = BazingaANE;
+			sourceTree = "<group>";
+		};
+		55747CEF14DDA76D00B1CE7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55747CF014DDA76D00B1CE7C /* BazingaANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55747CE714DDA76D00B1CE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5503424414DF054700C7537D /* BazingaANE-Prefix.pch in Headers */,
+				55747CFA14DDA9F300B1CE7C /* FlashRuntimeExtensions.h in Headers */,
+				55EDDFFF14DE30A5009288C1 /* AppSpecificValues.h in Headers */,
+				55EDE00014DE30A5009288C1 /* GameCenterManager.h in Headers */,
+				55EDE00514DE3271009288C1 /* MyDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55747CE814DDA76D00B1CE7C /* BazingaANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55747CF614DDA76D00B1CE7C /* Build configuration list for PBXNativeTarget "BazingaANE" */;
+			buildPhases = (
+				55747CE514DDA76D00B1CE7C /* Sources */,
+				55747CE614DDA76D00B1CE7C /* Frameworks */,
+				55747CE714DDA76D00B1CE7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BazingaANE;
+			productName = BazingaANE;
+			productReference = 55747CE914DDA76D00B1CE7C /* libBazingaANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55747CE014DDA76D00B1CE7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "PXL Designs, LLC";
+			};
+			buildConfigurationList = 55747CE314DDA76D00B1CE7C /* Build configuration list for PBXProject "BazingaANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55747CDE14DDA76D00B1CE7C;
+			productRefGroup = 55747CEA14DDA76D00B1CE7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55747CE814DDA76D00B1CE7C /* BazingaANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55747CE514DDA76D00B1CE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55747CF314DDA76D00B1CE7C /* BazingaANE.m in Sources */,
+				55EDE00114DE30A5009288C1 /* GameCenterManager.m in Sources */,
+				55EDE00614DE3271009288C1 /* MyDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55747CF414DDA76D00B1CE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55747CF514DDA76D00B1CE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55747CF714DDA76D00B1CE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = /Developer/XCode_WorkSpace/debug;
+				DSTROOT = /tmp/BazingaANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"\"$(inherited)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BazingaANE/BazingaANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55747CF814DDA76D00B1CE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/BazingaANE.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"\"$(inherited)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BazingaANE/BazingaANE-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55747CE314DDA76D00B1CE7C /* Build configuration list for PBXProject "BazingaANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55747CF414DDA76D00B1CE7C /* Debug */,
+				55747CF514DDA76D00B1CE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55747CF614DDA76D00B1CE7C /* Build configuration list for PBXNativeTarget "BazingaANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55747CF714DDA76D00B1CE7C /* Debug */,
+				55747CF814DDA76D00B1CE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55747CE014DDA76D00B1CE7C /* Project object */;
+}
